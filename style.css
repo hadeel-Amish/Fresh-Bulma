@@ -1,0 +1,278 @@
+.button.signup-button {
+    font-weight: 500;
+    height: 44px;
+    width: 120px;
+    color:white;
+    background-color: #f39200;
+}
+.button.rounded {
+    border-radius: 500px;
+}
+.menu-icon-wrapper {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 34px;
+    height: 34px;
+    pointer-events: none;
+    -webkit-transition: .1s;
+    transition: .1s;
+}
+.hero-foot img.partner-logo {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100px;
+}
+.tabs li {
+    display: block;
+}
+.hero-foot * {
+    border: none !important;
+}
+.section.section-feature-grey {
+        background-color: #fbfbfb;
+    }
+    .section {
+        position: relative;
+        overflow-x: hidden !important;
+    }
+    .section {
+        padding: 3rem 1.5rem;
+    }
+    .divider {
+        height: 3px;
+        border-radius: 50px;
+        background: #f39200;
+        width: 70px;
+        margin-bottom: 200px;
+    }
+    .divider.is-centered {
+        margin: 0 auto;
+        margin-bottom: 70px;
+    }
+    .image-card{
+        width: 300px;
+        height: 320px;
+        background-color: #fff;
+        border-radius: 3px;
+        outline: 2px;
+        margin: 0 auto;
+    }
+    section.section.is-medium.color{
+background-color:#fbfbfb;
+    }
+    .subtitle.is-5.is-muted{
+        color: #999;
+        /* font-size: 1.25rem; */
+        font-weight: 500;
+        line-height: 3;
+       font: 30px open sans ,sans-serif;
+}
+
+.columns.is-vcentered.app-side{
+    background-color:#fbfbfb;
+}
+.feature-icon .icon-wrap.ion-icon {
+    font-size: 110px;
+    color: #6a7b96;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.feature-icon .icon-wrap {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid #e3e3e3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto 10px auto;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.feature-icon .icon-wrap .ion-icon path {
+    font-size: 110px;
+    color: #6a7b96;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.icon-inner, .ionicon, svg {
+    display: block;
+    height: 100%;
+    width: 100%;
+    
+}
+:host(.icon-large) {
+    font-size: 32px !important;
+}
+:host {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    contain: strict;
+    fill: currentcolor;
+    box-sizing: content-box !important;
+}
+.feature-icon {
+    padding: 16px 0;
+    cursor: pointer;
+}
+.container {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+.testimonial {
+    position: relative;
+    overflow: hidden;
+    margin: 10px auto;
+    min-width: 220px;
+    max-width: 310px;
+    width: 100%;
+    color: #333;
+    text-align: left;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.testimonial blockquote {
+    margin: 0;
+    display: block;
+    border-radius: 8px;
+    position: relative;
+    background-color: #fcfcfc;
+    padding: 30px 50px 65px 50px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0 0 -40px;
+    line-height: 1.6em;
+    -webkit-box-shadow: 0 0 5px rgb(0 0 0 / 15%);
+    box-shadow: 0 0 5px rgb(0 0 0 / 15%);
+}
+.testimonial .author {
+    margin: 0;
+    height: 100%;
+    display: block;
+    text-align: left;
+    color: #fff;
+    padding: 0 35px;
+    position: relative;
+    z-index: 0;
+   
+}
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+.testimonial .author h5 {
+    left: 42%;
+    position: absolute;
+    opacity: .8;
+    padding: 3px 5px;
+    color: #444f60;
+}
+.testimonial .author span{
+    left: 42%;
+    position: relative;
+    opacity: .8;
+    padding: 6px 5px;
+    font-weight: 600;
+    color: #fff;
+}
+.testimonial .author h5 {
+    text-transform: capitalize;
+    bottom: 60%;
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #444f60;
+}
+.testimonial img {
+    max-width: 100%;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: block;
+    z-index: 1;
+    /* position: absolute; */
+    right: 60%;
+}
+.section.has-background-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://source.unsplash.com/g30P1zcOzXo/1600x900);
+}
+
+.section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+.testimonial blockquote:before {
+    top: -12px;
+    left: 16px;
+}
+
+.testimonial blockquote:before {
+    font-family: "Material Icons";
+    content: ",,";
+    position: absolute;
+    font-size: 50px;
+    opacity: .3;
+    font-style: normal;
+  
+
+}.pre-month,.card-text{
+    color: #999;
+}
+footer.footer-dark {
+    background: #444f60;
+    color: #fff;
+}
+.link-list a{
+    color: #98a9c3;
+    font: 17px Blink Macsystemfont, apple-syste;
+    line-height: 1.5;
+}
+h3{
+    color: #fff;
+    font: 19px Blink Macsystemfont, apple-syste;
+    
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+footer.footer-dark .footer-column .level-item .icon .icon-inner .ionicon.s-ion-icon path {
+    color: #f39200;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+
+
+
+
+
+
+/* .button {
+    cursor: pointer;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+} */
